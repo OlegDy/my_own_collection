@@ -1,0 +1,5 @@
+---
+- name: create file
+  olegdy.my_own_collection.create_file:
+    path: "{{ path }}"
+    content: "{{ content }}"
